@@ -1,14 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example Document</title>
+    <title>Payapi</title>
 
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
+
 <body>
-    this is scss template
+    <!-- header -->
+    <header class="container">
+        <a href="#" class="logo">
+            <img src="./img/logo.png" alt="logotip image">
+        </a>
+        <div class="toggle toggle--active">
+            <span></span>
+        </div>
+        <div class="navbar">
+            <ul class="navbar__nav">
+                <li class="navbar__nav__item">
+                    <a class="navbar__nav__item__link" href="#">Pricing</a>
+                </li>
+                <li class="navbar__nav__item">
+                    <a class="navbar__nav__item__link" href="#">About</a>
+                </li>
+                <li class="navbar__nav__item">
+                    <a class="navbar__nav__item__link" href="#">Contact</a>
+                </li>
+            </ul>
+    
+            <a class="navbar__demo" href="#">Schedule a Demo</a>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- building section -->
+        <section class="container building">
+            <div class="building__block">
+                <h1 class="building__block__title">Start building with our APIs for absolutely free.</h1>
+                <form class="building__block__form">
+                    <input class="building__block__form__input" type="email" placeholder="Enter email address">
+                    <input type="submit" class="building__block__form__button" value="Schedule a Demo">
+                </form>
+                <p class="building__block__desc">Have any questions? Contact Us</p>
+            </div>
+        </section>
+
+        <!-- work section -->
+        <section class="work">
+            <div class="container work">
+                <div class="work__block">
+                    <h1 class="work__block__title">Who we work with</h1>
+                    <p class="work__block__desc">Today, millions of people around the world have successfully connected
+                        their accounts to apps they love using our API. We provide developers with the tools they need
+                        to
+                        create easy and accessible experiences for their users. </p>
+                    <a href="#" class="work__block__link">About Us</a>
+                </div>
+                <div class="work__blocks">
+                    <div class="work__blocks__line">
+                        <a href="https://www.tesla.com/" class="work__blocks__line__link">
+                            <img src="./img/tesla.png" alt="tesla logotip">
+                        </a>
+                        <a href="https://www.microsoft.com/en-us/" class="work__block__line__link">
+                            <img src="./img/microsoft.png" alt="microfoft logotip">
+                        </a>
+                        <a href="https://www.hp.com/us-en/home.html" torget="blank" class="work__blocks__line__link">
+                            <img src="./img/hp.png" alt="hp logotip">
+                        </a>
+                    </div>
+                    <div class="line2">
+                        <a href="https://www.oracle.com/index.html" class="work__blocks__line__link">
+                            <img src="./img/oracle.png" alt="oracle logotip">
+                        </a>
+                        <a href="https://www.google.com/" class="work__blocks__line__link">
+                            <img src="./img/google.png" alt="goggle logotip">
+                        </a>
+                        <a href="https://www.nvidiax.com/" class="work__blocks__line__link">
+                            <img src="./img/nvidia.png" alt="nvidia logotip">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container implement">
+            <h1 class="implement__title">Easy to implement</h1>
+            <p class="implement__desc">Our API comes with just a few lines of code. You’ll be up and running in no time.
+                We built our documentation page to integrate payments functionality with ease.</p>
+        </section>
+
+        <section class="container simple">
+            <div class="simple__block">
+                <h1 class="simple__block__title">Simple UI & UX</h1>
+                <p class="simple__block__desc">Our pre-built form is easy to integrate in your app or website’s checkout
+                    flow and designed to optimize conversion. </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="products">
+                <a class="products__block" href="#">
+                    <h3 class="products__block__title">Personal Finances</h3>
+                    <p class="products__block__desc">Consolidate financial data from multiple sources and categorize
+                        transactions up to 2 years of history. Analyze reports to reconcile activities in your account.
+                    </p>
+                </a>
+                <a class="products__block" href="#">
+                    <h3 class="products__block__title">Banking & Coverage</h3>
+                    <p class="products__block__desc">With our platform, you can speed up account onboarding and support
+                        ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+                </a>
+                <a class="products__block" href="#">
+                    <h3 class="products__block__title">Consumer Payments</h3>
+                    <p class="products__block__desc">It’s easier to set up secure bank payments with us through a flow
+                        designed with the user experience in mind. Customers could instantly authenticate their account.
+                    </p>
+                </a>
+            </div>
+            <div class="start">
+                <h1 class="start__title">Ready to start?</h1>
+                <form class="start__form">
+                    <input class="start__form__input" type="email" placeholder="Enter email address">
+                    <input type="submit" class="start__form__button" value="Schedule a Demo">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container block">
+            <a href="#" class="block__logo">
+                <img src="./img/footlogo.png" alt="logotip image">
+            </a>
+            <ul class="block__nav">
+                <li class="block__nav__item">
+                    <a class="block__nav__item__link" href="#">Pricing</a>
+                </li>
+                <li class="block__nav__item">
+                    <a class="block__nav__item__link" href="#">Abaut</a>
+                </li>
+                <li class="block__nav__item">
+                    <a class="block__nav__item__link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="follow">
+                <a class="follow__link" href="#">
+                    <img src="./img/faceebok.svg" alt="faceebok logotip" class="follow__link__img">
+                </a>
+                <a class="follow__link" href="#"><img src="./img/twitter.svg" alt="twitter logotip"
+                        class="follow__link__img">
+                </a>
+                <a class="follow__link" href="#">
+                    <img src="./img/in.svg" alt="in logotip" class="folow__link__img">
+                </a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
